@@ -4,14 +4,14 @@ import 'kelassatu.dart';
 import 'passenger.dart';
 
 void main() {
-  // Membuat list dengan tipe data Passenger (polymorphism)
+ 
   List<Passenger> passengers = [
-    EconomyPassenger('budi'),
-    BusinessPassenger('di'),
-    FirstClassPassenger('anta'),
+    KelasEkonomi('Budi'),
+    kelasbisnis('Andi'),
+    kelassatu('Sinta'),
   ];
   
-
+  
   for (var passenger in passengers) {
     if (passenger is EconomyPassenger) {
       passenger.printTicketInfo();
