@@ -2,10 +2,10 @@ import 'penumpang.dart';
 import 'mejatiket.dart';
 
 
-class KelasEkonomi extends Penumpang implements Mejatiket {
+class penumpangekonomi extends Penumpang implements Mejatiket {
 
   
-  KelasEkonomi(String name) : super(name);
+  penumpangekonomi(String name) : super(name);
   
  
   @override

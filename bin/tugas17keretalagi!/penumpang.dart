@@ -14,7 +14,7 @@ abstract class Penumpang {
     print('Kelas: ${getKelasPenumpang()}');
   }
   
-  // Abstract methods dengan nama yang konsisten
+  
   double getHargaTiket();
   String getKelasPenumpang();
   String getFasilitas();
